@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppXamlDiseno.TiposLayout.UnScrollView"
+             Title="UnScrollView">
+    
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Elemento 1" />
+            <Label Text="Elemento 2" />
+            <Label Text="Elemento 3" />
+            <Label Text="Elemento 4" />
+            <Label Text="Elemento 5" />
+            <Label Text="Elemento 6" />
+            <Label Text="Elemento 7" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

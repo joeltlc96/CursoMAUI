@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppXamlDiseno.Controles.ControlesPresentacionPage"
+             Title="Controles de Presentación">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!-- Label -->
+            <Label Text="🔤 Label: Texto estático"
+                   FontSize="18"
+                   TextColor="DarkSlateBlue"
+                   HorizontalOptions="Center" />
+
+            <!-- Image -->
+            <Image Source="dotnet_bot.png"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   Aspect="AspectFit"
+                   HorizontalOptions="Center" />
+
+            <!-- BoxView -->
+            <BoxView Color="MediumPurple"
+                     WidthRequest="150"
+                     HeightRequest="50"
+                     HorizontalOptions="Center" />
+
+            <!-- ProgressBar -->
+            <ProgressBar Progress="0.6"
+                         ProgressColor="Green"
+                         HeightRequest="8"
+                         HorizontalOptions="Fill" />
+
+            <!-- ActivityIndicator -->
+            <ActivityIndicator IsRunning="True"
+                               Color="DarkRed"
+                               HorizontalOptions="Center"
+                               HeightRequest="40"
+                               WidthRequest="40" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
