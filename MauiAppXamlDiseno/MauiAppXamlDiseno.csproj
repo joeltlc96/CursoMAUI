@@ -79,6 +79,9 @@
 	  <MauiXaml Update="Controles\ControlesPresentacionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="EjemploABindingPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="TiposLayout\UnAbsoluteLayout.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
